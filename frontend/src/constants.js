@@ -5,7 +5,7 @@ const submit_button_text = "Get Freebies";
 const refresh_button_text = "Go Back";
 const error_text = "Something went wrong. Please try again later.";
 const footer_text = "Made with ❤️ by Sourabh Raj";
-const api_url = "http://localhost:4000/fetchGames";
+const api_url = "https://epic-freebies-api.onrender.com/fetchGames";
 const footer_links = [
   {
     linkText: "Instagram",
