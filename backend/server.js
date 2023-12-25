@@ -7,6 +7,10 @@ const port = 4000;
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("Epic Freebies API is online!");
+});
+
 app.get("/fetchGames", async (req, res) => {
   try {
     const { country, locale } = req.query;
